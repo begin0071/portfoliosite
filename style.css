@@ -179,14 +179,31 @@ li a{
 .third-project {
     width: 400px;
     height: 400px;
+    background: rgb(224, 78, 78);
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(./images/projectno3.png);
+    background-size: cover;
+    background-position: right center;
+
+}
+
+
+
+
+.team-project {
+    width: 400px;
+    height: 400px;
     background: #fff;
     position: relative;
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(./images/picture.png);
+    background-image: url(./images/teamprofilegenerator.png);
     background-size: cover;
-    background-position: right center;
+    background-position: left center;
 
 }
 
@@ -264,7 +281,7 @@ li a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 4rem;
+    font-size: 2rem;
     width: 30%;
     margin: 25% 35%;
     padding-top: 30px;
