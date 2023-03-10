@@ -388,3 +388,67 @@ input[type="submit"]:hover {
   max-width: 25%;
   height: auto;
 }
+
+
+/* Desktop navbar */
+.desktop-links {
+  display: block;
+}
+
+.desktop-links ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.desktop-links li {
+  margin: 0;
+  padding: 0;
+}
+
+.desktop-links a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Mobile navbar */
+.mobile-links {
+  display: none;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  background-color: #000;
+  height: 4px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  /* Hide desktop navbar */
+  .desktop-links {
+    display: none;
+  }
+
+  /* Show mobile navbar */
+  .mobile-links {
+    display: block;
+    text-align: center;
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+  }
+}
+  
+
