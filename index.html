@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Site</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-light.css">
+    <link rel="stylesheet" href="style-dark.css" id="theme-link">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
-<body>
-    <!-- Your HTML code goes here -->
+
 </body>
 </html>
 
@@ -21,11 +23,19 @@
                 <li><a href="#projects" id="project">Projects</a></li>
                 <li><a href="#aboutme" id="about">About</a></li>
                 <li><a href="#contactme"id="contact">Contact</a></li>
+                <li>
+                    <button id="toggle-switch">
+                      <i class="fas fa-sun"></i>
+                    </button>
+                  </li>
             </ul>
             </div>
-            </div>
+            </div>     
      </section>
+
      <!--End of Navbar-->
+    
+
 
      <!--Hero Section-->
      <section id="hero">
@@ -38,7 +48,21 @@
             <span class="firstword">Solving</span><br />Problems & Creating
             <br />Solutions
             </h1>
-            <a href="#" class="resume-cta"><span class="resume-text">Resume</span></a>
+
+
+
+
+
+            
+            <a href="https://1drv.ms/w/s!ApPaQNxmjpP5crgd3IO_niuVlvI">
+                <p>Resume</p>
+              </a>
+              
+
+            
+
+
+
      </div>
      </section>
      <!--End of Hero Section-->
@@ -160,7 +184,7 @@
                 
                 <h2>Contact Details</h2>
                 <ul>
-                    <h1>m.khaki610@gmail.com</h1>
+                   <h1>m.khaki610@gmail.com</h1>
                   <li><i class="fas fa-map-marker-alt"></i> Saint Paul, Minnesota</li>
                  
                 </ul>
@@ -169,19 +193,7 @@
                   <li><a href="https://www.linkedin.com/in/mugeeskhaki/">LinkedIn</a></li>
                   <li><i class="fab fa-github"></i> <a href="https://github.com/begin0071">GitHub</a></li>
                 </ul>
-                <h2>Contact Form</h2>
-                <form>
-                  <label for="name">Name:</label>
-                  <input type="text" id="name" name="name"><br>
-                  <label for="email">Email:</label>
-                  <input type="email" id="email" name="email"><br>
-                  
-                  <label for="message">Message:</label>
-                  <textarea id="message" name="message"></textarea><br>
-                  
-                  <input type="submit" value="Submit">
-
-                </form>
+               
             </div>
 
 
@@ -194,8 +206,12 @@
                
                
         </div>
+ 
    </section>
-  </body>
+</div>
 
+
+<script src="script.js"></script>
 </body>
+
 </html>
