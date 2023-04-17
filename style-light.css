@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+  
+
 html{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -377,5 +379,41 @@ li a{
   }
   
 
-
-
+  
+  /* For mobile devices with a maximum width of 767px */
+@media (max-width: 390px) {
+    /* Center the navbar items */
+    ul {
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    /* Center the hero text */
+    .hero-text {
+      text-align: center;
+      left: 0;
+    }
+    
+    /* Center the project cards */
+    .projects {
+      justify-content: right;
+    }
+    
+    /* Adjust the margin of the project cards */
+    .office-project, .advance-project, .third-project, .team-project {
+      margin: 2px;
+    }
+    
+    /* Adjust the position of the project card text */
+    .text-container {
+      bottom: auto;
+      top: 0;
+      height: 10px;
+    }
+    
+    /* Center the project card text */
+    .name {
+      margin-top: 5%;
+    }
+  }
+  
