@@ -401,19 +401,19 @@ li a{
     
     /* Adjust the margin of the project cards */
     .office-project, .advance-project, .third-project, .team-project {
-      margin: 2px;
+      margin: 1.5px;
     }
     
     /* Adjust the position of the project card text */
     .text-container {
       bottom: auto;
-      top: 0;
+      top: 20px;
       height: 10px;
     }
     
     /* Center the project card text */
     .name {
-      margin-top: 5%;
+      margin-top: 15%;
     }
   }
   
